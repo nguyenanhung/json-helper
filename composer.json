@@ -1,0 +1,35 @@
+{
+    "type": "library",
+    "name": "nguyenanhung/json-helper",
+    "description": "Basic and Advanced JSON Helper",
+    "keywords": [
+        "helper",
+        "json",
+        "php"
+    ],
+    "homepage": "https://github.com/nguyenanhung/json-helper",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Nguyen An Hung",
+            "email": "dev@nguyenanhung.com",
+            "homepage": "https://nguyenanhung.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.6",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "laminas/laminas-json": "^3"
+    },
+    "autoload": {
+        "psr-4": {
+            "nguyenanhung\\Libraries\\JSON\\": "src/"
+        },
+        "files": [
+            "helpers/helpers.php"
+        ]
+    }
+}
