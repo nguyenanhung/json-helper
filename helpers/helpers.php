@@ -40,3 +40,36 @@ if (!function_exists('isJson')) {
         return nguyenanhung\Libraries\JSON\Json::isJson($string);
     }
 }
+if (!function_exists('get_json_item')) {
+    /**
+     * Function get_json_item
+     *
+     * @param string $json_string
+     * @param string $item_output
+     *
+     * @return string|null
+     * @author   : 713uk13m <dev@nguyenanhung.com>
+     * @copyright: 713uk13m <dev@nguyenanhung.com>
+     * @time     : 09/22/2021 51:28
+     */
+    function get_json_item($json_string = '', $item_output = '')
+    {
+        return jsonItem($json_string, $item_output);
+    }
+}
+if (!function_exists('is_json')) {
+    /**
+     * Function is_json
+     *
+     * @param string $string
+     *
+     * @return bool
+     * @author   : 713uk13m <dev@nguyenanhung.com>
+     * @copyright: 713uk13m <dev@nguyenanhung.com>
+     * @time     : 09/22/2021 52:30
+     */
+    function is_json($string = '')
+    {
+        return isJson($string);
+    }
+}
