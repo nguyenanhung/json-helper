@@ -32,7 +32,7 @@ class Json extends BaseJson
      * @time  : 9/29/18 11:08
      *
      */
-    public static function jsonItem($json_string = '', $item_output = '')
+    public static function jsonItem(string $json_string = '', string $item_output = '')
     {
         $result      = json_decode(trim($json_string), true);
         $item_output = trim($item_output);
@@ -53,7 +53,7 @@ class Json extends BaseJson
      * @time  : 10/13/18 09:39
      *
      */
-    public static function isJson($json = '')
+    public static function isJson(string $json = ''): bool
     {
         $decode = json_decode(trim($json), true);
 

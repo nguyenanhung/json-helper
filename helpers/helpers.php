@@ -19,7 +19,7 @@ if (!function_exists('jsonItem')) {
      * @copyright: 713uk13m <dev@nguyenanhung.com>
      * @time     : 08/18/2021 54:52
      */
-    function jsonItem($json_string = '', $item_output = '')
+    function jsonItem(string $json_string = '', string $item_output = '')
     {
         return nguyenanhung\Libraries\JSON\Json::jsonItem($json_string, $item_output);
     }
@@ -35,7 +35,7 @@ if (!function_exists('isJson')) {
      * @copyright: 713uk13m <dev@nguyenanhung.com>
      * @time     : 08/18/2021 54:50
      */
-    function isJson($string = '')
+    function isJson(string $string = ''): bool
     {
         return nguyenanhung\Libraries\JSON\Json::isJson($string);
     }
@@ -52,7 +52,7 @@ if (!function_exists('get_json_item')) {
      * @copyright: 713uk13m <dev@nguyenanhung.com>
      * @time     : 09/22/2021 51:28
      */
-    function get_json_item($json_string = '', $item_output = '')
+    function get_json_item(string $json_string = '', string $item_output = '')
     {
         return jsonItem($json_string, $item_output);
     }
@@ -68,7 +68,7 @@ if (!function_exists('is_json')) {
      * @copyright: 713uk13m <dev@nguyenanhung.com>
      * @time     : 09/22/2021 52:30
      */
-    function is_json($string = '')
+    function is_json(string $string = ''): bool
     {
         return isJson($string);
     }
