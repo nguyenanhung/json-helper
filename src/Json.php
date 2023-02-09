@@ -34,7 +34,7 @@ class Json extends BaseJson
      */
     public static function jsonItem(string $json_string = '', string $item_output = '')
     {
-        $result      = json_decode(trim($json_string), true);
+        $result = json_decode(trim($json_string), true);
         $item_output = trim($item_output);
         if (($result !== null) && isset($result[$item_output])) {
             return trim($result[$item_output]);
