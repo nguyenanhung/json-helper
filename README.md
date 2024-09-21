@@ -1,4 +1,9 @@
-[![Latest Stable Version](http://poser.pugx.org/nguyenanhung/json-helper/v)](https://packagist.org/packages/nguyenanhung/json-helper) [![Total Downloads](http://poser.pugx.org/nguyenanhung/json-helper/downloads)](https://packagist.org/packages/nguyenanhung/json-helper) [![Latest Unstable Version](http://poser.pugx.org/nguyenanhung/json-helper/v/unstable)](https://packagist.org/packages/nguyenanhung/json-helper) [![License](http://poser.pugx.org/nguyenanhung/json-helper/license)](https://packagist.org/packages/nguyenanhung/json-helper) [![PHP Version Require](http://poser.pugx.org/nguyenanhung/json-helper/require/php)](https://packagist.org/packages/nguyenanhung/json-helper)
+[![Latest Stable Version](https://img.shields.io/packagist/v/nguyenanhung/json-helper.svg?style=flat-square)](https://packagist.org/packages/nguyenanhung/json-helper)
+[![Total Downloads](https://img.shields.io/packagist/dt/nguyenanhung/json-helper.svg?style=flat-square)](https://packagist.org/packages/nguyenanhung/json-helper)
+[![Daily Downloads](https://img.shields.io/packagist/dd/nguyenanhung/json-helper.svg?style=flat-square)](https://packagist.org/packages/nguyenanhung/json-helper)
+[![Monthly Downloads](https://img.shields.io/packagist/dm/nguyenanhung/json-helper.svg?style=flat-square)](https://packagist.org/packages/nguyenanhung/json-helper)
+[![License](https://img.shields.io/packagist/l/nguyenanhung/json-helper.svg?style=flat-square)](https://packagist.org/packages/nguyenanhung/json-helper)
+[![PHP Version Require](https://img.shields.io/packagist/dependency-v/nguyenanhung/json-helper/php)](https://packagist.org/packages/nguyenanhung/json-helper)
 
 # JSON Helper
 
